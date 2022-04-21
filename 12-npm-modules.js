@@ -8,6 +8,14 @@
 // npm init             - guided step by step
 // npm init -y          - everything will be set to default
 
+// uninstall package
+// npm uninstall <packageName>
+
+// Dev dependencies used only in development env ie nodemon, linting, formatting etc
+// install dev dependency
+// npm i <packageName> -D 
+// npm i <packageName> --save-dev
+
 const _ = require('lodash')
 
 const items = [1,[2,[3,[4]]]]
