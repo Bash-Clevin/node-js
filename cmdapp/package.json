@@ -1,0 +1,23 @@
+{
+  "name": "math-trainer",
+  "version": "1.0.0",
+  "description": "A simple tool to train your math skills",
+  "main": "index.js",
+  "bin": {
+    "math-trainer": "bin/mathTrainer.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "clevin-bash",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "node-emoji": "^1.11.0"
+  }
+}
